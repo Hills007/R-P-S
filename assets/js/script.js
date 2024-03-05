@@ -15,3 +15,17 @@ for (let button of document.getElementsByClassName("control")) {
         playGame(playerChoice);
     });
 }
+
+//Function to start game
+function playGame(playerChoice) {
+    playerImg.src = `assets/images/${playerChoice}.png`;
+    playerImg.alt = playerChoice;
+
+    let computerChoice = choices[Math.floor(Math.random() * 3)];
+
+    computerImg.src = `assets/images/${computerChoice}.png`;
+    computerImg.alt = computerChoice;
+
+    let result = checkWinner(playerChoice, computerChoice);
+    updateScores(result);
+}
