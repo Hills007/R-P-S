@@ -28,7 +28,7 @@ footer {
 
 .title {
     color: rebeccapurple;
-    font-size: 30px;
+    font-size: 40px;
 }
 .game-area {
     width: 80%;
@@ -38,6 +38,10 @@ footer {
     text-align: center;
 }
 
+.options {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 .control {
     display: inline-block;
     margin: 2px;
@@ -55,23 +59,28 @@ footer {
     background-color: lightblue;
     float: left;
     width: 45%;
-}
-
-#p-image {
-    width: 75%;
-  
-}
-
-#c-image {
-    width: 75%;
-    
+    margin-top: 5%;
 }
 
 .computer {
     background-color: lightcoral;
     float: right;
     width: 45%;
+    margin-top: 5%;
 }
+
+#p-image {
+    width: 75%;
+    margin-top: 10%;
+  
+}
+
+#c-image {
+    width: 75%;
+    margin-top: 10%;
+}
+
+
 
 
 @media  screen and (max-width: 768px){
