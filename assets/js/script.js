@@ -6,6 +6,8 @@ const playerImg = document.getElementById("p-image");
 const computerImg = document.getElementById("c-image");
 const messages = document.getElementById("messages");
 const choices = ["rock", "paper", "scissors"];
+let playerWin = 0;
+let computerWin = 0;
 
 
 // Add Event listeners
@@ -43,5 +45,22 @@ function checkWinner(playerChoice, computerChoice) {
         return "player";
     } else {
         return "computer";
+    }
+}
+
+// Function to update scores
+function updateScores(result) {
+    if (result === "player") {
+        playerWin++;
+        playerScore.innerHTML = "" + playerWin;
+
+        messages.innerHTML = "Congratulations..You Win!";
+
+    } else if (result === "computer") {
+        computerWin++;
+        computerScore.innerHTML = "" + computerWin;
+        messages.innerHTML = "Sorry..You Lose!";
+    } else {
+        messages.innerHTML = "It's a tie!";
     }
 }
