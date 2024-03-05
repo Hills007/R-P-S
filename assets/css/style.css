@@ -39,7 +39,7 @@ footer {
 }
 
 .options {
-    margin-top: 2%;
+    margin-top: 1%;
     margin-bottom: 2%;
 }
 .control {
@@ -59,14 +59,14 @@ footer {
     background-color: lightblue;
     float: left;
     width: 45%;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .computer {
     background-color: lightcoral;
     float: right;
     width: 45%;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 #p-image {
