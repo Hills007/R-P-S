@@ -31,7 +31,7 @@ footer {
     font-size: 40px;
 }
 .game-area {
-    width: 80%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1%;
@@ -58,14 +58,14 @@ footer {
 .player {
     background-color: lightblue;
     float: left;
-    width: 45%;
+    width: 40%;
     margin-top: 2%;
 }
 
 .computer {
     background-color: lightcoral;
     float: right;
-    width: 45%;
+    width: 40%;
     margin-top: 2%;
 }
 
