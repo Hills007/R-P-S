@@ -29,3 +29,19 @@ function playGame(playerChoice) {
     let result = checkWinner(playerChoice, computerChoice);
     updateScores(result);
 }
+
+
+// Function to check winner
+function checkWinner(playerChoice, computerChoice) {
+    if (playerChoice === computerChoice) {
+        return "tie";
+    } else if (
+        (playerChoice === "rock" && computerChoice === "scissors") ||
+        (playerChoice === "paper" && computerChoice === "rock") ||
+        (playerChoice === "scissors" && computerChoice === "paper")
+    ) {
+        return "player";
+    } else {
+        return "computer";
+    }
+}
