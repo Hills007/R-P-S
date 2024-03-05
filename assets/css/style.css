@@ -73,10 +73,18 @@ footer {
     width: 45%;
 }
 
-.greenText{
-    color: hsl(130, 84%, 54%);
-}
 
-.redText{
-    color:hsl(0, 84%, 60%);
+@media  screen and (max-width: 768px){
+    #messages {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #p-image {
+        margin-top: 50%;
+    }
+    
+    #c-image {
+        margin-top: 50%;
+    }
 }

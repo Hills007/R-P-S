@@ -53,14 +53,17 @@ function updateScores(result) {
     if (result === "player") {
         playerWin++;
         playerScore.innerHTML = "" + playerWin;
-
+        playerScore.style.color = "green"; // Add green color class to 
         messages.innerHTML = "Congratulations..You Win!";
-
+        messages.style.color = "green"; //Add green color class to message
     } else if (result === "computer") {
         computerWin++;
         computerScore.innerHTML = "" + computerWin;
+        computerScore.style.color = "red"; //Add red color class to computer 
         messages.innerHTML = "Sorry..You Lose!";
+        messages.style.color = "red"; //Add red color class to message
     } else {
         messages.innerHTML = "It's a tie!";
+        messages.style.color = "black"; //Add black color class to message
     }
 }
