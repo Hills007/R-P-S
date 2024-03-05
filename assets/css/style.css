@@ -1,0 +1,82 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    font-family: "Kaushan Script", cursive, sans-serif;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    height: 50px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    min-height: 60px;
+    padding-top: 0;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.title {
+    color: rebeccapurple;
+    font-size: 30px;
+}
+.game-area {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.control {
+    display: inline-block;
+    margin: 2px;
+    width: 80px;
+    height: 40px;
+    color: blue
+}
+
+#messages {
+    height: 20px;
+    font-size: 20px
+}
+
+.player {
+    background-color: lightblue;
+    float: left;
+    width: 45%;
+}
+
+#p-image {
+    width: 75%;
+  
+}
+
+#c-image {
+    width: 75%;
+    
+}
+
+.computer {
+    background-color: lightcoral;
+    float: right;
+    width: 45%;
+}
+
+.greenText{
+    color: hsl(130, 84%, 54%);
+}
+
+.redText{
+    color:hsl(0, 84%, 60%);
+}
